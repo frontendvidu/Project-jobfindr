@@ -1,0 +1,43 @@
+.searchOuter {
+    background-color: aliceblue;
+    width: 810px;
+    height: 80px;
+    margin: 40px auto 0 auto;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    background-color: white;
+    width: 212px;
+    height:100%;
+    border: none;
+    padding: 20px;
+}
+
+.input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600px;
+    font-size: 16px;
+
+}
+
+.inputTitle {
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding-left: 20px;
+}
+
+.jobSearch {
+    background-color: #309689;
+    width: 174px;
+    height:100%;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600px;
+}

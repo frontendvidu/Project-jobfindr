@@ -1,0 +1,26 @@
+.specs {
+    display: flex;
+    gap: 40px;
+    width: 600px;
+    height: 60px;
+    margin: 80px auto 100px auto;
+}
+
+.specSpan {
+    display: flex;
+    width: 160px;
+    height: 60px;
+    gap: 12px;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.tag {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+}

@@ -1,0 +1,68 @@
+.headerOuter {
+    width: 1296px;
+    height: 80px;
+margin-left: auto;
+margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 296px;
+    /* background-color: #309689; */
+
+}
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: white;
+}
+
+
+.login {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    border: none;
+    background-color: transparent;
+    transition: all 0.5;
+    cursor: pointer;
+}
+
+.register {
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: #309689;
+    padding: 14px 20px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.5;
+    cursor: pointer;
+}
+
+.login:hover {
+    transform: scale(1.1);
+    color: #309689;
+
+}
+
+.register:hover {
+    color: #309689;
+    background-color: white;
+    transform: scale(1.1);
+}
+
+.btnspan {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}

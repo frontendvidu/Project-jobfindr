@@ -1,0 +1,14 @@
+.siteTitle {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 80px;
+    color: white;
+    margin: 100px auto 0 auto;
+}
+
+.tagname {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
