@@ -1,0 +1,74 @@
+.outerServices {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
+    padding: 120px 72px 60px 72px;
+    background-color: white;
+}
+
+
+.serviceLeft {
+    background-color: #F3F7FA;
+    border-radius: 16px;
+    width: 550px;
+    height: 514px;
+    position: relative;
+}
+
+.Image {
+    width: 550px;
+    height: 500px;
+    object-fit: contain;
+    object-position: center;
+    position: absolute;
+    bottom: 0;
+    left: auto;
+    right: auto;
+}
+
+.serviceRight {
+    width: 552px;
+    height: 384px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+
+.serviceH2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.serviceP {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.8);
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+
+.serviceBtn {
+    width: 160px;
+    height: 40px;
+    background-color: #309689;
+    border-radius: 8px;
+    box-shadow: 6px 6px 14px 3px rgba(19, 21, 23, 0.06);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.serviceBtn:hover {
+    transform: scale(1.1);
+}
