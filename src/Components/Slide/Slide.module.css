@@ -1,0 +1,56 @@
+.slideTestimonial {
+    width: 416px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: f;
+    flex-direction: column;
+    background-color: white;
+}
+
+.slideHeadingTestimonial {
+    font-size: 24px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 40px;
+
+}
+
+.slideQuoteTestimonial {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    margin-bottom: 40px;
+    font-style: italic;
+
+}
+
+.authorTestimonial {
+    width: 178px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.authorNameTestimonial {
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.authorPositionTestimonial {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.starsTestimonial {
+    width: 152px;
+    height: 24px;
+    object-fit: cover;
+  margin-bottom: 24px;
+}
