@@ -1,14 +1,3 @@
-.slidesHandleTestimonial {
-    width: 1296px;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 24px;
-}
-
-
-
 .sectionTestimonial {
     width: 100%;
     height: 788px;
@@ -19,6 +8,15 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
+}
+
+.slidesHandleTestimonial {
+    width: 1296px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
 }
 
 .headingTestimonial {

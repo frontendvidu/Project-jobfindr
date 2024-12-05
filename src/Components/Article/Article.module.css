@@ -1,0 +1,33 @@
+.articleImage {
+    width: 636px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+
+}
+
+.articleDate {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+    font-weight: 600;
+}
+
+.articleHeading {
+    font-size: 24px;
+    line-height: 32px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.articleButton {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(48, 150, 137, 1);
+    font-weight: 500;
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    margin-top: 32px;
+}

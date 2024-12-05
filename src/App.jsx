@@ -4,7 +4,7 @@ import Sponsored from "./Components/Sponsored/Sponsored";
 import Category from "./Components/Category/Category";
 import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
-
+import Blog from "./Components/Blog/Blog";
 function App() {
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
       <Category />
       <Services />
       <Testimonials />
+      <Blog />
     </>
   );
 }
