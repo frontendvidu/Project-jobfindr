@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz@0,14..32;1,14..32&family=Lexend&family=Plus+Jakarta+Sans:ital,wght@0,700;1,700&display=swap');
+
+.footerSection {
+    background-color: black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 100px 30px 60px 30px;
+    gap: 140px;
+}
+.footerSectionCol1 {
+    width: 377px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+}
+.footerSectionCol2,
+.footerSectionCol3 {
+    width: 148px;
+}
+
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+.footerSectionCol4 {
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+}
+.footerCompanyDescription {
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 32px;
+}
+.footerCopyright {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 26px;
+}
+.footerNavHeader {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 24px;
+}
+.footerLinks {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 26px;
+    text-decoration: none;
+}
+.footerNewsletterDescription {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 16px;
+}
+.footerInput {
+    width: 306px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    background-color: transparent;
+    padding: 10px;
+}
+.footerInput::placeholder {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 16px;
+}
+.footerSubscribeButton {
+    width: 306px;
+    height: 50px;
+    padding: 15px 40px;
+    border-radius: 12px;
+    background-color: #309689;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+.footerLegalButtons {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-decoration: underline;
+    background-color: transparent;
+    border: none;
+    line-height: 26px;
+    margin-right: 10px;
+}
+

@@ -5,6 +5,7 @@ import Category from "./Components/Category/Category";
 import Services from "./Components/Services/Services";
 import Testimonials from "./Components/Testimonials/Testimonials";
 import Blog from "./Components/Blog/Blog";
+import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Testimonials />
       <Blog />
+      <Footer />
     </>
   );
 }
