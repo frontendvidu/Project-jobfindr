@@ -1,6 +1,6 @@
 .sectionTestimonial {
     width: 100%;
-    height: 788px;
+    /* height: 788px; */
     background-color: #EBF5F4;
     padding: 120px 0px;
     display: flex;
@@ -29,5 +29,15 @@
     font-size: 16px;
     font-weight: 400;
     color: black;
+}
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+.swiperSlide {
+    width: 416px !important; /* Add !important to override Swiper's inline styles */
 }
 
