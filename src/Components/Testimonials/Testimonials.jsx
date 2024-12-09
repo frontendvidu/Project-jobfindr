@@ -22,38 +22,39 @@ function Testimonials() {
         At eu lobortis pretium tincidunt amet lacus ut aenean aliquet. Blandit
         amassa elementum ids
       </p>
-      <div className={styles.slidesHandleTestimonial}>
-        <Swiper
-          effect={"coverflow"}
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={"auto"}
-          coverflowEffect={{
-            rotate: 50,
-            stretch: 0,
-            depth: 100,
-            modifier: 1,
-            slideShadows: true,
-          }}
-          pagination={true}
-          modules={[EffectCoverflow, Pagination]}
-          className={styles.swiper}
-          initialSlide={Math.floor(slideData.length / 2)}
-        >
-          {slideData.map((item) => {
-            return (
-              <SwiperSlide className={styles.swiperSlide}>
-                <Slide
-                  headingTestimonial={item.heading}
-                  quoteTestimonial={item.quote}
-                  author={item.author}
-                  position={item.position}
-                />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
-      </div>
+      {/* <div className={styles.slidesHandleTestimonial}> */}
+      <Swiper
+        effect={"coverflow"}
+        grabCursor={true}
+        centeredSlides={true}
+        slidesPerView={"auto"}
+        coverflowEffect={{
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        }}
+        pagination={true}
+        modules={[EffectCoverflow, Pagination]}
+        className={styles.swiper}
+        initialSlide={Math.floor(slideData.length / 2)}
+        autoHeight={true}
+      >
+        {slideData.map((item) => {
+          return (
+            <SwiperSlide className={styles.swiperSlide}>
+              <Slide
+                headingTestimonial={item.heading}
+                quoteTestimonial={item.quote}
+                author={item.author}
+                position={item.position}
+              />
+            </SwiperSlide>
+          );
+        })}
+      </Swiper>
+      {/* </div> */}
     </section>
   );
 }

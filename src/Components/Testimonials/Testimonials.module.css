@@ -1,23 +1,24 @@
 .sectionTestimonial {
     width: 100%;
     /* height: 788px; */
-    background-color: #EBF5F4;
-    padding: 120px 0px;
+    background-color: #befff8;
+    padding: 60px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 60px;
+    gap: 10px;
 }
 
-.slidesHandleTestimonial {
+/* .slidesHandleTestimonial {
     width: 1296px;
-    height: 400px;
+    height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 24px;
-}
+    background-color: yellowgreen;
+} */
 
 .headingTestimonial {
     font-size: 50px;
@@ -33,11 +34,13 @@
 
 .swiper {
     width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    /* background-color: rgb(22, 29, 100); */
   }
   
 .swiperSlide {
-    width: 416px !important; /* Add !important to override Swiper's inline styles */
+    width: 416px !important;
+    /* background-color: red; */
 }
 

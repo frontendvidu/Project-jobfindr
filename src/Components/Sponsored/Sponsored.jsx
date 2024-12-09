@@ -8,11 +8,20 @@ import styles from "./Sponsored.module.css";
 function Sponsored() {
   return (
     <div className={styles.sponsored}>
-      <img src={Adobe} alt="" />
-      <img src={Asana} alt="" />
-      <img src={Linear} alt="" />
-      <img src={Slack} alt="" />
-      <img src={Spotify} alt="" />
+      <div className={styles.slider}>
+        <img className={styles.sliderImg} src={Adobe} alt="" />
+        <img className={styles.sliderImg} src={Asana} alt="" />
+        <img className={styles.sliderImg} src={Linear} alt="" />
+        <img className={styles.sliderImg} src={Slack} alt="" />
+        <img className={styles.sliderImg} src={Spotify} alt="" />
+      </div>
+      <div className={styles.slider}>
+        <img className={styles.sliderImg} src={Adobe} alt="" />
+        <img className={styles.sliderImg} src={Asana} alt="" />
+        <img className={styles.sliderImg} src={Linear} alt="" />
+        <img className={styles.sliderImg} src={Slack} alt="" />
+        <img className={styles.sliderImg} src={Spotify} alt="" />
+      </div>
     </div>
   );
 }
