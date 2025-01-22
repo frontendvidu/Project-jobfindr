@@ -1,0 +1,44 @@
+.articleBackground {
+    /* background-color: aqua; */
+    width: 392px;
+    height: 488px;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #E8E8EA;
+    margin-top: 80px;
+
+}
+
+.articleImage {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 6px;
+
+}
+
+.articleDate {
+    font-size: 16px;
+    line-height: 24px;
+    color: #8B8B8B;
+    font-weight: 600;
+}
+
+.articleHeading {
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.articleButton {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(48, 150, 137, 1);
+    font-weight: 500;
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    margin-top: 32px;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styles from "./Header.module.css";
 import Logo from "../Images/Logo.png";
 
@@ -7,10 +8,10 @@ function Header() {
     <div className={styles.headerOuter}>
       <img src={Logo} alt="LOGO" />
       <nav className={styles.nav}>
-        <a href="">Home</a>
-        <a href="">Jobs</a>
-        <a href="">About Us</a>
-        <a href="">Contact Us</a>
+        <Link to="/">Home</Link>
+        <Link to="/blog">Blog</Link>
+        <Link to="about">About Us</Link>
+        <Link to="">Contact Us</Link>
       </nav>
       <span className={styles.btnspan}>
         <button className={styles.login}>Login</button>
