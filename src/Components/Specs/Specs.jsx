@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from "react";
-import I1 from "../../Images/Icon+bg.png";
-import I2 from "../../Images/Icon+bg-1.png";
-import I3 from "../../Images/Icon+bg-2.png";
+import I1 from "../Images/Icon+bg.png";
+import I2 from "../Images/Icon+bg-1.png";
+import I3 from "../Images/Icon+bg-2.png";
 import styles from "./Specs.module.css";
 
 function Specs() {

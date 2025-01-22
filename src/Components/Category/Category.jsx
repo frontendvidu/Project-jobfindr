@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./Category.module.css";
 import Niche from "../Niche/Niche";
-import agri from "../../Images/agri.png";
-import commerce from "../../Images/commerce.png";
-import construction from "../../Images/construction.png";
-import education from "../../Images/education.png";
-import financial from "../../Images/financial.png";
-import hotel from "../../Images/hotel.png";
-import metal from "../../Images/metal.png";
-import transport from "../../Images/transport.png";
+import agri from "../Images/agri.png";
+import commerce from "../Images/commerce.png";
+import construction from "../Images/construction.png";
+import education from "../Images/education.png";
+import financial from "../Images/financial.png";
+import hotel from "../Images/hotel.png";
+import metal from "../Images/metal.png";
+import transport from "../Images/transport.png";
 
 function Category() {
   return (

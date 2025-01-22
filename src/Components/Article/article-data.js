@@ -1,5 +1,5 @@
-import article1image from "../../Images/article1image.jpg";
-import article2image from "../../Images/article2image.jpg";
+import article1image from "../Images/article1image.jpg";
+import article2image from "../Images/article2image.jpg";
 const articleData = [
   {
     articleImg: article1image,

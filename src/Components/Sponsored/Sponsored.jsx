@@ -1,9 +1,9 @@
 import React from "react";
-import Adobe from "../../Images/adobe.png";
-import Asana from "../../Images/asana.png";
-import Linear from "../../Images/linear.png";
-import Slack from "../../Images/slack.png";
-import Spotify from "../../Images/spotify.png";
+import Adobe from "../Images/adobe.png";
+import Asana from "../Images/asana.png";
+import Linear from "../Images/linear.png";
+import Slack from "../Images/slack.png";
+import Spotify from "../Images/spotify.png";
 import styles from "./Sponsored.module.css";
 function Sponsored() {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import person from "../../Images/person.png";
+import person from "../Images/person.png";
 import styles from "./Services.module.css";
 
 function Services() {

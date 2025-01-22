@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Slide.module.css";
-import Stars from "../../Images/Stars.png";
-import Avatar from "../../Images/Avatar.png";
+import Stars from "../Images/Stars.png";
+import Avatar from "../Images/Avatar.png";
 function Slide(props) {
   return (
     <div className={styles.slideTestimonial}>
