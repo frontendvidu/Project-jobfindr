@@ -1,0 +1,83 @@
+.accordionTabClosed {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+    border-bottom: 2px solid rgba(48, 150, 137, 0.2);
+}
+
+.accordionTabOpen{
+    width: 100%;
+    background-color: rgba(235, 245, 244, 1);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.accordionNumber {
+    width: 10%;
+    color: #309689;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.accordionInfo{
+    width: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.accordionTitle {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.accordionPara {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    width: 75%;
+}
+
+.headingSpan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 50px;
+    
+}
+
+.expandBtnClose {
+    border: 2px solid rgba(48, 150, 137, 1);
+    border-radius: 50%;
+    width: 33.33px;
+    height: 33.33px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #309689;
+}
+
+.expandBtnOpened {
+    border: 2px solid rgba(48, 150, 137, 1);
+    border-radius: 50%;
+    width: 33.33px;
+    height: 33.33px;
+    background-color: #309689;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
