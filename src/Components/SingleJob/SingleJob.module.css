@@ -1,0 +1,60 @@
+.jobOuter {
+    width: 1296px;
+    height: 251px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 28px;
+    padding: 40px;
+    background-color: white;
+    box-shadow: 0 3px 8px 0 rgba(48, 150, 137, 0.08);
+    border-radius: 20px;
+}
+
+.jobTitle {
+    font-weight: 600px;
+    font-size: 28px;
+    color: black;
+}
+
+.jobCompany {
+    font-weight: 300px;
+    font-size: 16px;
+    color: black;
+}
+
+.jobInfo {
+    font-weight: 600px;
+    font-size: 16px;
+    color: rgba(108, 117, 125, 1);
+}
+
+.serviceBtn {
+    width: 160px;
+    height: 40px;
+    background-color: #309689;
+    border-radius: 8px;
+    box-shadow: 6px 6px 14px 3px rgba(19, 21, 23, 0.06);
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.jobInfoSpan {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.jobInfoDiv {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

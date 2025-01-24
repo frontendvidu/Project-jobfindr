@@ -6,11 +6,13 @@ import Services from "../Components/Services/Services";
 import Testimonials from "../Components/Testimonials/Testimonials";
 import Blog from "../Components/Blog/Blog";
 import Footer from "../Components/Footer/Footer";
+import Jobs from "../Components/Jobs/Jobs";
 function Home() {
   return (
     <>
       <Hero />
       <Sponsored />
+      <Jobs />
       <Category />
       <Services />
       <Testimonials />
