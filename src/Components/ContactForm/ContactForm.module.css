@@ -1,0 +1,146 @@
+
+.contactForm {
+    width: 584px;
+    height: 671px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    background-color: #EBF5F4;
+    padding: 60px 40px;
+    border-radius: 20px;
+}
+
+.formStylings {
+    width: 504px;
+    height: 434px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+
+}
+.formHeading {
+    font-size: 28px;
+    font-weight: 800;
+    color: black;
+}
+
+.formParagraph {
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    line-height: 24px;
+}
+
+.formLabel {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    line-height: 20px;
+}
+
+.formInput {
+    background-color: #ffffff;
+    padding: 9px 16px ;
+    width: 240px;
+    height: 38px;
+    display: block;
+    border: none;
+    border-radius: 6px;
+
+}
+
+
+
+textarea.formInput {
+    width: 504px;
+    height: 152px;
+  }
+
+  .formInputEmail {
+    width: 504px;
+  }
+
+.formBtn {
+
+    width: 248px;
+    height: 40px;
+    padding: 14px 20px;
+    background-color: #309689;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+
+}
+
+.formHorizontalSection {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+<div className={styles.contactForm}>
+        <span>
+          <h3 className={styles.formHeading}>Contact Info</h3>
+          <p className={styles.formParagraph}>
+            We will get back to you. We do REPLY
+          </p>
+        </span>
+        <form action="" className={styles.formStylings}>
+          <div className={styles.formHorizontalSection}>
+            <div>
+              <label className={styles.formLabel} htmlFor="">
+                First Name
+              </label>
+              <input className={styles.formInput} type="text" />
+            </div>
+            <div>
+              <label className={styles.formLabel} htmlFor="">
+                Last Name
+              </label>
+              <input className={styles.formInput} type="text" />
+            </div>
+          </div>
+          <div>
+            <label className={styles.formLabel} htmlFor="">
+              Email Address
+            </label>
+            <input
+              className={`${styles.formInput} ${styles.formInputEmail}`}
+              type="email"
+            />
+          </div>
+          <div>
+            <label className={styles.formLabel} htmlFor="">
+              Message
+            </label>
+            <textarea className={styles.formInput} name="" id=""></textarea>
+          </div>
+          <button className={styles.formBtn}>Send Message</button>
+        </form>
+      </div> */
