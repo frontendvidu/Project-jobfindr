@@ -9,6 +9,8 @@ import Home from "./pages/Home";
 import AboutUs from "./pages/AboutUs";
 import BlogPage from "../src/pages/BlogPage";
 import Contact from "../src/pages/Contact";
+import Jobs from "./pages/Jobs";
+import JobPage from "./pages/JobPage";
 function App() {
   return (
     <Router>
@@ -18,6 +20,8 @@ function App() {
         <Route path="/about" element={<AboutUs />} />
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/jobs" element={<Jobs />} />
+        <Route path="/singlejob" element={<JobPage />} />
       </Routes>
     </Router>
   );

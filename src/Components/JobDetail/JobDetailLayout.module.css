@@ -1,0 +1,116 @@
+.outerlayout {
+    width: 100%;
+    /* height: 1000px;   */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: rgb(255, 255, 255);  /* remove this */
+}
+.headingLayoutSection{
+    background-color: rgb(255, 255, 255);
+    width: 1296px;
+    height: 248px;
+    padding: 10px 50px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.categoryTitle {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    display: block;
+}
+
+.categoryTag {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    display: block;
+}
+
+.jobDescriptionSpans {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 72px;
+}
+
+.leftSpanDescription  {
+    width: 966px;
+    /* height: 500px;   */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 60px;
+    background-color: rgb(255, 255, 255);  /* remove this */
+}
+
+.rightSpanDescription {
+    width: 306px;
+    height: 821px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #EBF5F4;
+    border-radius: 20px;
+    padding: 28px 20px 20px 20px;
+}
+
+.heading4Detail {
+    font-family: 24px;
+    font-weight: 600px;
+    color: black;
+}
+
+.paragraphDetail {
+    font-size: 16px;
+    font-weight: 300px;
+    line-height: 24px;
+    list-style: none;
+}
+
+.heading5Detail {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.headingJobOverview {
+    
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.subheadingJobOverview {
+
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+
+}
+
+.paraJobOverview{
+    font-size: 16px;
+    font-weight: 300;
+    color: #a0a0a0;
+}
+
+.joboversection {
+    margin-bottom: 20px;
+}
+
+.mapjoboversection {
+    border-radius: 12px;
+}

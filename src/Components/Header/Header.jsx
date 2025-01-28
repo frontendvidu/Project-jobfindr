@@ -9,9 +9,10 @@ function Header() {
       <img src={Logo} alt="LOGO" />
       <nav className={styles.nav}>
         <Link to="/">Home</Link>
+        <Link to="/jobs">Jobs</Link>
+        <Link to="/contact">Contact Us</Link>
         <Link to="/blog">Blog</Link>
         <Link to="/about">About Us</Link>
-        <Link to="/contact">Contact Us</Link>
       </nav>
       <span className={styles.btnspan}>
         <button className={styles.login}>Login</button>
