@@ -1,0 +1,57 @@
+.outerMessage {
+    width: 306px;
+    height: 535px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+    padding: 40px 20px;
+    background-color: #cdf9f4;
+    border-radius: 20px;
+}
+
+.h3Message {
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+
+.inputMessage {
+    background-color: white;
+    border-radius: 12px;
+    width: 265px;
+    height: 40px;
+    padding: 14px 12px;
+    display: block;
+    border: none;
+
+}
+
+.textareaMessage {
+    background-color: white;
+    border-radius: 12px;
+    width: 265px;
+    height: 160px;
+    padding: 12px 12px;
+    display: block;
+    border: none;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.formBtn {
+    color: white;
+    width: 145px;
+    height: 40px;
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: #309689;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+}

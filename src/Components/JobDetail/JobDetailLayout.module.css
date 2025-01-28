@@ -55,13 +55,21 @@
 }
 
 .rightSpanDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.rightJobOverview {
     width: 306px;
     height: 821px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    background-color: #EBF5F4;
+    background-color: #cdf9f4;
     border-radius: 20px;
     padding: 28px 20px 20px 20px;
 }

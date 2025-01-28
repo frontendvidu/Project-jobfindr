@@ -1,5 +1,6 @@
 import styles from "./JobDetailLayout.module.css";
 import MapJob from "../Map/MapJob";
+import Message from "../Message/Message";
 function JobDetailLayout(props) {
   return (
     <div className={styles.outerlayout}>
@@ -33,33 +34,38 @@ function JobDetailLayout(props) {
           </span>
         </span>
         <span className={styles.rightSpanDescription}>
-          <h5 className={styles.headingJobOverview}>Job Overview</h5>
-          <div className={styles.joboversection}>
-            <h6 className={styles.subheadingJobOverview}>Job Type</h6>
-            <p className={styles.paraJobOverview}>{props.type}</p>
+          <div className={styles.rightJobOverview}>
+            <h5 className={styles.headingJobOverview}>Job Overview</h5>
+            <div className={styles.joboversection}>
+              <h6 className={styles.subheadingJobOverview}>Job Type</h6>
+              <p className={styles.paraJobOverview}>{props.type}</p>
+            </div>
+            <div className={styles.joboversection}>
+              <h6 className={styles.subheadingJobOverview}>Category</h6>
+              <p className={styles.paraJobOverview}>{props.category}</p>
+            </div>
+            <div className={styles.joboversection}>
+              <h6 className={styles.subheadingJobOverview}>Experience</h6>
+              <p className={styles.paraJobOverview}>{props.experience}</p>
+            </div>
+            <div className={styles.joboversection}>
+              <h6 className={styles.subheadingJobOverview}>Degree</h6>
+              <p className={styles.paraJobOverview}>{props.degree}</p>
+            </div>
+            <div className={styles.joboversection}>
+              <h6 className={styles.subheadingJobOverview}>Offered Salary</h6>
+              <p className={styles.paraJobOverview}>{props.salary}</p>
+            </div>
+            <div className={styles.joboversection}>
+              <h6 className={styles.subheadingJobOverview}>Location</h6>
+              <p className={styles.paraJobOverview}>{props.location}</p>
+            </div>
+            <div className={styles.mapjoboversection}>
+              <MapJob />
+            </div>
           </div>
-          <div className={styles.joboversection}>
-            <h6 className={styles.subheadingJobOverview}>Category</h6>
-            <p className={styles.paraJobOverview}>{props.category}</p>
-          </div>
-          <div className={styles.joboversection}>
-            <h6 className={styles.subheadingJobOverview}>Experience</h6>
-            <p className={styles.paraJobOverview}>{props.experience}</p>
-          </div>
-          <div className={styles.joboversection}>
-            <h6 className={styles.subheadingJobOverview}>Degree</h6>
-            <p className={styles.paraJobOverview}>{props.degree}</p>
-          </div>
-          <div className={styles.joboversection}>
-            <h6 className={styles.subheadingJobOverview}>Offered Salary</h6>
-            <p className={styles.paraJobOverview}>{props.salary}</p>
-          </div>
-          <div className={styles.joboversection}>
-            <h6 className={styles.subheadingJobOverview}>Location</h6>
-            <p className={styles.paraJobOverview}>{props.location}</p>
-          </div>
-          <div className={styles.mapjoboversection}>
-            <MapJob />
+          <div>
+            <Message />
           </div>
         </span>
       </div>
