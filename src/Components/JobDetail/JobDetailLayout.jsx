@@ -1,6 +1,7 @@
 import styles from "./JobDetailLayout.module.css";
 import MapJob from "../Map/MapJob";
 import Message from "../Message/Message";
+import Related from "../Related/Related";
 function JobDetailLayout(props) {
   return (
     <div className={styles.outerlayout}>
@@ -32,6 +33,7 @@ function JobDetailLayout(props) {
             {/* icons */}
             {/* icons */}
           </span>
+          <Related />
         </span>
         <span className={styles.rightSpanDescription}>
           <div className={styles.rightJobOverview}>

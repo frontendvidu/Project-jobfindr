@@ -1,0 +1,25 @@
+.outerRelated {
+    width: 100%;
+    height: 1047px;
+    background-color: rgb(255, 255, 255);
+    padding: 60px 0;
+}
+.categoryTitle {
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    display: block;
+}
+
+.categoryTag {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    display: block;
+}
+
+.fetchedJobSection {
+    margin-top: 40px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
