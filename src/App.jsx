@@ -10,7 +10,7 @@ import AboutUs from "./pages/AboutUs";
 import BlogPage from "../src/pages/BlogPage";
 import Contact from "../src/pages/Contact";
 import Jobs from "./pages/Jobs";
-import JobPage from "./pages/JobPage";
+import JobDetail from "./Components/JobDetail/JobDetail";
 function App() {
   return (
     <Router>
@@ -21,7 +21,7 @@ function App() {
         <Route path="/blog" element={<BlogPage />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/jobs" element={<Jobs />} />
-        <Route path="/singlejob" element={<JobPage />} />
+        <Route path="/jobs/:jobID" element={<JobDetail />} />
       </Routes>
     </Router>
   );

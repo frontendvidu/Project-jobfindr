@@ -33,7 +33,7 @@ function JobDetailLayout(props) {
             {/* icons */}
             {/* icons */}
           </span>
-          <Related />
+          <Related idOfJob={props.idJob} categ={props.category} />
         </span>
         <span className={styles.rightSpanDescription}>
           <div className={styles.rightJobOverview}>

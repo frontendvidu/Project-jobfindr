@@ -16,6 +16,7 @@ const AllJobs = () => {
           {job.map((j) => {
             return (
               <SingleJob
+                id={j.id}
                 jobtitle={j.title}
                 jobcompany={j.company}
                 category={j.category}

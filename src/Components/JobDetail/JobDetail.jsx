@@ -1,7 +1,10 @@
 import { useEffect, useState } from "react";
 import JobDetailLayout from "./JobDetailLayout";
 import JobFetch from "../JobFetch/JobFetch";
+import { useParams } from "react-router-dom";
 function JobDetail() {
+  const [selectedJob, setselectedJob] = useState({});
+  const { jobID } = useParams();
   const [jobdetails, setjobdetails] = useState([]);
   const [jobResponsibilities, setjobresponsibilities] = useState([]);
   const [skillFetched, setskillsFetched] = useState([]);
@@ -9,47 +12,54 @@ function JobDetail() {
     setjobdetails(jobdetails);
   }
 
-  // Log jobdetails whenever it changes
   useEffect(() => {
-    if (jobdetails[0]?.responsibilities) {
-      console.log("Updated jobdetails:", jobdetails[0].responsibilities);
-      const jobRespons = Object.values(
-        jobdetails[0]?.responsibilities || {}
-      ).filter((value) => value !== null);
+    if (jobdetails.length > 0) {
+      const selectedjobarray = jobdetails.filter((value) => value.id === jobID);
 
-      console.log(jobRespons);
+      if (selectedjobarray) {
+        setselectedJob(selectedjobarray[0]);
+      }
+    }
+  }, [jobdetails, jobID]);
+
+  useEffect(() => {
+    if (selectedJob?.responsibilities) {
+      const jobRespons = Object.values(
+        selectedJob.responsibilities || {}
+      ).filter((value) => value !== null);
       setjobresponsibilities(jobRespons);
     }
-  }, [jobdetails]);
+  }, [selectedJob]);
 
   useEffect(() => {
-    if (jobdetails[0]?.skills) {
-      const jobskills = Object.values(jobdetails[0].skills).filter(
+    if (selectedJob?.skills) {
+      const jobskills = Object.values(selectedJob.skills).filter(
         (value) => value !== null
       );
       console.log(jobskills, " This is the skills fetched");
       setskillsFetched(jobskills);
     }
-  }, [jobdetails]);
+  }, [selectedJob]);
   return (
     <>
       <JobFetch getArray={jobdetailhandler} />
       <JobDetailLayout
-        titleJob={jobdetails[0]?.title}
-        companyName={jobdetails[0]?.company}
-        descriptionJob={jobdetails[0]?.description}
+        idJob={selectedJob.id}
+        titleJob={selectedJob.title}
+        companyName={selectedJob.company}
+        descriptionJob={selectedJob.description}
         responsibilitiesProp={jobResponsibilities.map((j) => (
           <li>{j}</li>
         ))}
         skills={skillFetched.map((s) => (
           <li>{s}</li>
         ))}
-        type={jobdetails[0]?.type}
-        category={jobdetails[0]?.category}
-        experience={jobdetails[0]?.experience}
-        degree={jobdetails[0]?.degree}
-        salary={jobdetails[0]?.salary}
-        location={jobdetails[0]?.location}
+        type={selectedJob.type}
+        category={selectedJob.category}
+        experience={selectedJob.experience}
+        degree={selectedJob.degree}
+        salary={selectedJob.salary}
+        location={selectedJob.location}
       />
     </>
   );

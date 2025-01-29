@@ -2,16 +2,16 @@ import { useState } from "react";
 import JobFetch from "../JobFetch/JobFetch";
 import styles from "./Related.module.css";
 import SingleJob from "../SingleJob/SingleJob";
-const Related = () => {
+const Related = (props) => {
   const [jobs, setJobs] = useState([]);
 
   function getJobsHandler(array) {
     setJobs(array);
   }
-  const category = jobs[0]?.category;
+  const category = props.categ;
   console.log(category, " === this is the category selected ");
   const filteredArray = jobs.filter(
-    (value, index) => index !== 0 && value.category === category
+    (value) => value.id !== props.idOfJob && value.category === category
   );
   console.log(filteredArray, " === this is the filtered array ");
 

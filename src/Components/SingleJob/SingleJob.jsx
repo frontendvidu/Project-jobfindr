@@ -4,6 +4,7 @@ import { faBriefcase } from "@fortawesome/free-solid-svg-icons";
 import { faClock } from "@fortawesome/free-solid-svg-icons";
 import { faWallet } from "@fortawesome/free-solid-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 
 const SingleJob = (props) => {
   return (
@@ -39,7 +40,9 @@ const SingleJob = (props) => {
             {props.location}
           </p>
         </span>
-        <button className={styles.serviceBtn}>Job Details</button>
+        <Link to={`/jobs/${props.id}`}>
+          <button className={styles.serviceBtn}>Job Details</button>
+        </Link>
       </div>
     </div>
   );
